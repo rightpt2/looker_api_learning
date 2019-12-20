@@ -1,0 +1,17 @@
+Steps to work through
+
+
+- Create New project
+- add to my git repo
+- basics (readme.md etc.)
+- Add config.yml
+- Clone LookerAPI (just auth and just validation)
+- Copy validation
+- 
+
+
+Delete any code you dont use...
+You always want the minimum ammount of code to do the work you want to do
+Deleted code is celebrated!!
+YAGNI - you aren't gonna need it
+

@@ -1,6 +1,6 @@
 import csv
 import yaml ### install the pyyaml package
-from lookerapi import LookerApi
+from lookerapi_example import LookerApi
 from pprint import pprint
 
 
@@ -8,13 +8,13 @@ from pprint import pprint
 
 ### ------- HERE ARE PARAMETERS TO CONFIGURE -------
 
-host = 'cse'
+host = 'looker'
 output_csv_name = 'output.csv'
 
 ### ------- OPEN THE CONFIG FILE and INSTANTIATE API -------
 
 f = open('config.yml')
-params = yaml.load(f)
+params = yaml.safe_load(f)
 f.close()
 
 my_host = params['hosts'][host]['host']
